@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_gray_24dp"
+            android:title="Primary" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_social_gray_24dp"
+            android:title="Social" />
+        <item
+            android:id="@+id/nav_promotion"
+            android:icon="@drawable/ic_label_gray_24dp"
+            android:title="Promotions" />
+    </group>
+
+    <item android:title="All Labels">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_star_gray_24dp"
+                android:title="Starred" />
+            <item
+                android:id="@+id/nav_important"
+                android:icon="@drawable/ic_important_gray_24dp"
+                android:title="Important" />
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_send_gray_24dp"
+                android:title="Sent" />
+            <item
+                android:id="@+id/nav_outbox"
+                android:icon="@drawable/ic_send_gray_24dp"
+                android:title="Outbox" />
+            <item
+                android:id="@+id/nav_draft"
+                android:icon="@drawable/ic_drafts_gray_24dp"
+                android:title="Drafts" />
+            <item
+                android:id="@+id/nav_all_mails"
+                android:icon="@drawable/ic_mail_gray_24dp"
+                android:title="All mail" />
+            <item
+                android:id="@+id/nav_spam"
+                android:icon="@drawable/ic_error_gray_24dp"
+                android:title="Spam" />
+            <item
+                android:id="@+id/nav_trash"
+                android:icon="@drawable/ic_delete_gray_24dp"
+                android:title="Trash" />
+        </menu>
+    </item>
+    <group android:id="@+id/grp1">
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_gray_24dp"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_gray_24dp"
+                android:title="Help &amp; feedback" />
+    </group>
+</menu>
